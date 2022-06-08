@@ -1,0 +1,52 @@
+@font-face{
+	font-family: BoxedRound;
+	src: url("https://cdn.discordapp.com/attachments/956320372167430154/979751239636107284/bankgothic.ttf");
+}
+
+.dialog {
+  font-family: BoxedRound;
+  background: rgba(0, 0, 0, 0);
+	color: #4061a8;
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 91%;
+	width: 500px;
+	height: 100px;
+	transform: translate(-50%, -50%);
+  border-radius: 7px;
+}
+
+.dialog .head span::before {
+	content: "";
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.dialog input[type="text"] {
+  font-family: BoxedRound;
+	width: 60%;
+	height: 32px;
+  outline: 0;
+	background: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 26px;
+  margin-left: 110px;
+  transition: all 0.2s ease-in-out;
+	color: #ffffff;
+  border-style: groove;
+  border: .12vw solid #4061a8;
+  border-radius: 5px;
+}
+
+.dialog input[type="text"]:active, .dialog input[type="text"]:hover {
+  color: #4061a8;
+}
+
+.dialog textarea {
+  color: #4061a8;
+	width: 100%;
+	height: 128px;
+}
+
